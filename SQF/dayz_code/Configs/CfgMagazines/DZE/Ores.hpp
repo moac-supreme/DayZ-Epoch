@@ -29,11 +29,11 @@ class PartOreSilver: CA_Magazine {
 	weight = 1;
 	class ItemActions {
 		class Crafting {
-			text = $STR_EPOCH_PLAYER_266;
+			text = "Craft 20oz Silver"";
 			script = ";['Crafting','CfgMagazines', _id] spawn player_craftItem;";
 			neednearby[] = {"fire"};
 			requiretools[] = {"ItemSledge"};
-			output[] = {{"ItemSilverBar",1},{"ItemWaterbottleUnfilled",1}};
+			output[] = {{"ItemSilverBar10oz",2},{"ItemWaterbottleUnfilled",1}};
 			input[] = {{"PartOreSilver",1},{"ItemWaterbottle",1}};
 		};
 	};
